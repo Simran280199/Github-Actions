@@ -4,6 +4,6 @@ jobs:
     first_jobs:
         runs-on: ubuntu-latest
         steps:
-            -name: welcome message
-            run: ehco "Hello all"
+            - name: welcome message
+              run: ehco "Hello all"
 
