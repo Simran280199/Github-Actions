@@ -1,9 +1,11 @@
 name: my first workflow
+
 on: [push]
+
 jobs:
-    first_jobs:
-        runs-on: ubuntu-latest
-        steps:
-            - name: welcome message
-              run: ehco "Hello all"
+  first_jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome message
+        run: echo "Hello all"
 
